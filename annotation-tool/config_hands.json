@@ -1,0 +1,54 @@
+{
+    "0": {
+        "0": "face_camera",
+        "1": "body_camera",
+        "2": "hands_camera",
+        "99": "--",
+        "100": "NAN"
+    },
+    "1": {
+        "0": "both_hands",
+        "1": "only_right",
+        "2": "only_left",
+        "3": "none",
+        "100": "NAN"
+    },
+    "2": {
+        "0": "taking control",
+        "1": "giving control",
+        "99": "--",
+        "100": "NAN"
+    },
+    "3": {
+        "0": "moving",
+        "1": "not_moving",
+        "100": "NAN"
+    },
+    "level_names": {
+        "0": "occlusion",
+        "1": "hands_on_wheel",
+        "2": "transition",
+        "3": "moving_hands"
+    },
+    "level_types": {
+        "0": "stream_properties",
+        "1": "action",
+        "2": "action",
+        "3": "action"
+    },
+    "level_defaults": {
+        "0": 99,
+        "1": 0,
+        "2": 99,
+        "3": 1
+    },
+    "camera_dependencies": {
+        "face": [],
+        "body": [
+            1,
+            2,
+            3
+        ],
+        "hands": []
+    }
+}
